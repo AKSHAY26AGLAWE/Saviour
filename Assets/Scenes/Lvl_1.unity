@@ -456,11 +456,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: triggerDistance
@@ -758,7 +758,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -179.46191}
+  m_AnchoredPosition: {x: 0, y: -179.46185}
   m_SizeDelta: {x: -500, y: -1601.613}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &80784500
@@ -1507,11 +1507,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: triggerDistance
@@ -1691,11 +1691,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: triggerDistance
@@ -1860,11 +1860,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: triggerDistance
@@ -2032,11 +2032,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: triggerDistance
@@ -2569,11 +2569,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: triggerDistance
@@ -2752,11 +2752,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: triggerDistance
@@ -3028,11 +3028,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: triggerDistance
@@ -3456,11 +3456,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: triggerDistance
@@ -3553,11 +3553,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: triggerDistance
@@ -3910,7 +3910,7 @@ MonoBehaviour:
   - {fileID: 794215694}
   - {fileID: 0}
   - {fileID: 0}
-  moveSpeed: 0
+  moveSpeed: 3
 --- !u!54 &500792118
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4113,11 +4113,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: triggerDistance
@@ -4540,11 +4540,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: triggerDistance
@@ -4786,11 +4786,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: triggerDistance
@@ -5286,11 +5286,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: triggerDistance
@@ -5497,11 +5497,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: triggerDistance
@@ -5597,11 +5597,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: triggerDistance
@@ -6588,11 +6588,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: triggerDistance
@@ -6880,11 +6880,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: triggerDistance
@@ -7016,11 +7016,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: triggerDistance
@@ -7768,11 +7768,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: triggerDistance
@@ -7896,11 +7896,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: triggerDistance
@@ -8343,11 +8343,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: triggerDistance
@@ -8871,11 +8871,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: triggerDistance
@@ -8961,11 +8961,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: triggerDistance
@@ -9275,11 +9275,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: triggerDistance
@@ -9515,11 +9515,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: triggerDistance
@@ -9762,11 +9762,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: triggerDistance
@@ -10004,11 +10004,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: triggerDistance
@@ -10193,11 +10193,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: triggerDistance
@@ -11174,11 +11174,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: triggerDistance
@@ -11934,11 +11934,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: triggerDistance
@@ -12409,11 +12409,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: triggerDistance
@@ -12859,11 +12859,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: triggerDistance
@@ -14048,11 +14048,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2496725939571470810, guid: 4b22f6e37c614d84c86df581b5a918b4, type: 3}
       propertyPath: triggerDistance
@@ -14262,11 +14262,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4708178148549295263, guid: 852f811fca42eb042bad65cdca5092ee, type: 3}
       propertyPath: triggerDistance
@@ -14311,11 +14311,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: speed
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3729955411693166075, guid: 8167352442242904babd8a942b024be0, type: 3}
       propertyPath: triggerDistance
