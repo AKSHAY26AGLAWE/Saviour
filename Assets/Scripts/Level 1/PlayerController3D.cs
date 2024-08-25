@@ -40,6 +40,7 @@ public class PlayerController3D : MonoBehaviour
         InitializePlayerState();
         ResetPlayerState(); // Ensure player starts with full health
         animator = GetComponent<Animator>();
+        Application.targetFrameRate = 60;
 
         // Start walking towards the first waypoint
         if (waypoints.Length > 0)
