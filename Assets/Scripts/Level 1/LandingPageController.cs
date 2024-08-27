@@ -4,33 +4,29 @@ using UnityEngine.UI;
 
 public class LandingPageController : MonoBehaviour
 {
-    public GameObject landingPagePanel; // Reference to the Landing Page panel
-    public Animator animator;
+    public GameObject landingPagePanel; 
+    public Animator tapToPlayAnimator;
+    public GameObject tapToPlayPanel;
+
     public Button[] buttonsToDisable;
     public GameObject progressBar;
     public Button[] buttonsToEnable;
+    public GameObject otherUIElement;
 
     void Start()
     {
         // Ensure the landing page is active at the start
         landingPagePanel.SetActive(true);
         Time.timeScale = 0f; // Pause the game initially
-
-        if (animator == null)
-        {
-            animator = GetComponent<Animator>();
-        }
-
-        // Play the animation
-        animator.Play("TapToPlayAnimation");
+        tapToPlayAnimator.SetBool("DefaultAnim", true);
     }
-
     public void OnPlayButtonClicked()
     {
         Debug.Log("Tap to Play button clicked. Resuming game.");
         landingPagePanel.SetActive(false);
         Time.timeScale = 1f; // Resume the game
         Debug.Log("Time.timeScale after Tap to Play: " + Time.timeScale);
+        //tapToPlayAnimator.SetBool("DefaultAnim", false);
         DisableButtons();
         EnableGameObjects();
     }
@@ -54,6 +50,10 @@ public class LandingPageController : MonoBehaviour
             {
                 button.gameObject.SetActive(true);  // Activate each specified button
             }
+        }
+        if (otherUIElement != null)
+        {
+            otherUIElement.SetActive(true);  // Activate any other UI elements
         }
     }
 }

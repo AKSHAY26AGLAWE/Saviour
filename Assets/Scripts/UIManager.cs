@@ -26,6 +26,7 @@ public class UIManager : MonoBehaviour
     public void ExitBtn()
     {
         // code for exit btn confirmation option
+        // SceneManager.LoadScene("Lvl_2");
     }
     public void ExitMainMenu()
     {
