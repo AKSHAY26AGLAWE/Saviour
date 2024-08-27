@@ -2,31 +2,32 @@ using UnityEngine;
 
 public class BikeFollower : MonoBehaviour
 {
-    public Transform targetBike; // Reference to the main bike
-    public float speedVariation = 1.0f; // Speed variation for each bike
-    public Vector3 positionOffset; // Manual position offset
-    public Vector3 rotationOffset; // Manual rotation offset
+    public Transform targetBike;  // The main bike to follow
+    public float baseSpeed = 5f;  // Base speed of the follower bikes
+    public float speedVariation = 2f;  // Amount of speed variation
+    public Vector3 manualRotation = Vector3.zero; // Manual rotation for the bikes
 
-    private Vector3 initialPosition;
-    private Quaternion initialRotation;
+    private float currentSpeed;
 
     void Start()
     {
-        // Store the initial position and rotation
-        initialPosition = transform.position;
-        initialRotation = transform.rotation;
+        // Set an initial speed with some variation
+        currentSpeed = baseSpeed + Random.Range(-speedVariation, speedVariation);
+
+        // Apply manual rotation
+        transform.eulerAngles = manualRotation;
     }
 
     void Update()
     {
-        // Follow the target bike while maintaining manual offset
-        Vector3 targetPosition = targetBike.position + positionOffset;
-        Quaternion targetRotation = targetBike.rotation * Quaternion.Euler(rotationOffset);
+        if (targetBike == null) return;
 
-        // Move towards the target position
-        transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * speedVariation);
+        // Move towards the target bike
+        Vector3 direction = (targetBike.position - transform.position).normalized;
+        transform.position += direction * currentSpeed * Time.deltaTime;
 
-        // Rotate towards the target rotation
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * speedVariation);
+        // Rotate to face the target bike
+        Quaternion targetRotation = Quaternion.LookRotation(direction);
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * currentSpeed);
     }
 }
