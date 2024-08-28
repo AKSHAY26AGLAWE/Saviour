@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using TMPro;
+using UnityEngine.UI;
 
 public class PlayerController3D : MonoBehaviour
 {
@@ -10,7 +12,9 @@ public class PlayerController3D : MonoBehaviour
     public Camera playerCamera;
 
     public int maxHealth = 3;
-    private int currentHealth;
+    public int currentHealth;
+    public TextMeshProUGUI healthText;  // Reference to the TextMeshPro component
+    
 
     public float rotationSpeed = 5f;
     public float maxRotationAngleX = 5f;
@@ -35,17 +39,32 @@ public class PlayerController3D : MonoBehaviour
     {
         gameManager = GameManager.Instance;
         currentHealth = maxHealth;
+        UpdateHealthDisplay();
         defaultRotation = transform.rotation;
         targetRotation = defaultRotation;
         InitializePlayerState();
         ResetPlayerState(); // Ensure player starts with full health
         animator = GetComponent<Animator>();
+        Application.targetFrameRate = 60;
 
         // Start walking towards the first waypoint
         if (waypoints.Length > 0)
         {
             MoveToNextWaypoint();
         }
+    }
+
+    public void UpdateHealthDisplay()
+    {
+        if (healthText != null)
+        {
+            healthText.text = currentHealth.ToString();
+        }
+    }
+    public void SetHealth(int health)
+    {
+        currentHealth = health;
+        UpdateHealthDisplay();
     }
 
     void Update()
@@ -176,12 +195,14 @@ public class PlayerController3D : MonoBehaviour
     public void TakeDamage()
     {
         currentHealth--;
-        Debug.Log("Player hit! Current health: " + currentHealth);
+        Debug.Log("Player hit! Current health: " + currentHealth);        
+
 
         if (currentHealth <= 0)
         {
             GameOver();
         }
+        UpdateHealthDisplay();
     }
 
     private void GameOver()
